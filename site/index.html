@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Shield AI is a defense-tech company building the world's best AI pilots and next-generation aircraft.">
+	<title>Shield AI</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body class="home">
+<div id="page" class="site">
+
+	<div class="news-banner" id="news-banner">
+		<div class="news-banner__inner">
+			<span class="news-banner__label">[NEWS]</span>
+			<a href="https://shield.ai/shield-ai-to-acquire-software-simulation-company-aechelon-and-raise-2b-at-12-7b-valuation/" class="news-banner__link" target="_blank" rel="noopener">
+				Shield AI to acquire Aechelon, raise $2B at $12.7B valuation
+			</a>
+		</div>
+		<button class="news-banner__close" id="news-banner-close" aria-label="Close banner">&times;</button>
+	</div>
+
+	<header id="masthead" class="site-header">
+		<div class="header-inner">
+			<div class="site-branding">
+				<a href="/" class="site-logo" rel="home">
+					<img src="https://shield.ai/wp-content/uploads/2025/03/logo.svg" alt="Shield AI" width="150" height="30" class="site-logo__img">
+				</a>
+			</div>
+			<nav id="site-navigation" class="main-navigation" aria-label="Primary Navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Toggle menu">
+					<span class="menu-toggle__bar"></span>
+					<span class="menu-toggle__bar"></span>
+					<span class="menu-toggle__bar"></span>
+				</button>
+				<ul class="nav-menu" id="primary-menu">
+					<li><a href="#hivemind">Hivemind</a></li>
+					<li><a href="#x-bat">X-BAT</a></li>
+					<li><a href="#v-bat">V-BAT</a></li>
+					<li><a href="#vision">Vision Systems</a></li>
+					<li class="menu-item-has-children">
+						<a href="#company">Company</a>
+						<ul class="sub-menu">
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#newsroom">Newsroom</a></li>
+							<li><a href="#careers">Careers</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="header-actions">
+				<button class="btn btn--primary btn--sm" data-open-contact="options">Schedule a Demonstration</button>
+			</div>
+		</div>
+	</header>
+
+	<main id="primary" class="site-main">
+
+		<section class="hero-carousel" aria-label="Featured Products">
+			<div class="hero-carousel__track">
+				<div class="hero-slide active" data-slide="0">
+					<video class="hero-slide__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+						<source src="https://shield.ai/wp-content/uploads/2026/05/SHI18_Edit_JDM_v016_1.mp4" type="video/mp4">
+					</video>
+					<div class="hero-slide__overlay"></div>
+					<div class="hero-slide__content">
+						<h1 class="hero-slide__title">X-BAT</h1>
+						<p class="hero-slide__subtitle">Earth is our runway</p>
+						<a href="#x-bat" class="btn btn--outline btn--lg">Learn More</a>
+					</div>
+					<button class="hero-slide__nav hero-slide__nav--prev" aria-label="Previous slide"></button>
+					<button class="hero-slide__nav hero-slide__nav--next" aria-label="Next slide"></button>
+				</div>
+				<div class="hero-slide" data-slide="1">
+					<video class="hero-slide__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+						<source src="https://shield.ai/wp-content/uploads/2026/06/Hero-Hivemind.mp4" type="video/mp4">
+					</video>
+					<div class="hero-slide__overlay"></div>
+					<div class="hero-slide__content">
+						<h1 class="hero-slide__title">Hivemind</h1>
+						<p class="hero-slide__subtitle">The world's best AI pilot</p>
+						<a href="#hivemind" class="btn btn--outline btn--lg">Learn More</a>
+					</div>
+					<button class="hero-slide__nav hero-slide__nav--prev" aria-label="Previous slide"></button>
+					<button class="hero-slide__nav hero-slide__nav--next" aria-label="Next slide"></button>
+				</div>
+				<div class="hero-slide" data-slide="2">
+					<video class="hero-slide__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+						<source src="https://shield.ai/wp-content/uploads/2025/06/Hero-vbat.mp4" type="video/mp4">
+					</video>
+					<div class="hero-slide__overlay"></div>
+					<div class="hero-slide__content">
+						<h1 class="hero-slide__title">V-BAT</h1>
+						<p class="hero-slide__subtitle">Unmatched ISR &amp; targeting on the EW battlefield</p>
+						<a href="#v-bat" class="btn btn--outline btn--lg">Learn More</a>
+					</div>
+					<button class="hero-slide__nav hero-slide__nav--prev" aria-label="Previous slide"></button>
+					<button class="hero-slide__nav hero-slide__nav--next" aria-label="Next slide"></button>
+				</div>
+			</div>
+			<div class="hero-carousel__dots">
+				<button class="hero-carousel__dot active" data-slide="0" aria-label="Go to slide 1"></button>
+				<button class="hero-carousel__dot" data-slide="1" aria-label="Go to slide 2"></button>
+				<button class="hero-carousel__dot" data-slide="2" aria-label="Go to slide 3"></button>
+			</div>
+		</section>
+
+		<section class="mission-quote">
+			<div class="container">
+				<blockquote class="mission-quote__text">
+					Our mission is to protect service members and civilians with intelligent systems.
+				</blockquote>
+			</div>
+		</section>
+
+		<section class="powered-section" id="hivemind">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title">Powered by Hivemind</h2>
+					<a href="#hivemind" class="btn btn--outline btn--sm">Learn More</a>
+				</div>
+				<div class="platforms-carousel">
+					<div class="platforms-carousel__track">
+						<div class="platform-card active" data-platform="0">
+							<video class="platform-card__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+								<source src="https://shield.ai/wp-content/uploads/2025/03/avenger-3.mp4" type="video/mp4">
+							</video>
+							<h4 class="platform-card__title">Avenger</h4>
+						</div>
+						<div class="platform-card" data-platform="1">
+							<video class="platform-card__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+								<source src="https://shield.ai/wp-content/uploads/2025/03/firejet-2.mp4" type="video/mp4">
+							</video>
+							<h4 class="platform-card__title">Firejet</h4>
+						</div>
+						<div class="platform-card" data-platform="2">
+							<video class="platform-card__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+								<source src="https://shield.ai/wp-content/uploads/2025/06/Vista-Sizzle-1.mp4" type="video/mp4">
+							</video>
+							<h4 class="platform-card__title">VISTA</h4>
+						</div>
+						<div class="platform-card" data-platform="3">
+							<video class="platform-card__video" autoplay muted playsinline loop preload="metadata" aria-hidden="true">
+								<source src="https://shield.ai/wp-content/uploads/2025/03/tacit-2.mp4" type="video/mp4">
+							</video>
+							<h4 class="platform-card__title">Teaming Drones</h4>
+						</div>
+					</div>
+					<button class="platforms-carousel__prev" aria-label="Previous platform">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</button>
+					<button class="platforms-carousel__next" aria-label="Next platform">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="mission-autonomy">
+			<div class="container">
+				<div class="mission-autonomy__inner">
+					<div class="mission-autonomy__visual">
+						<img src="https://shield.ai/wp-content/uploads/2025/06/Stage-3.png" alt="Mission Autonomy" class="mission-autonomy__image" loading="lazy">
+					</div>
+					<div class="mission-autonomy__content">
+						<h3 class="section-subtitle">Mission Autonomy</h3>
+						<p class="mission-autonomy__text">
+							Without resilient autonomy, your mission is just a plan. In contested and degraded environments, platforms lose comms, manual control falters, and overwhelmed operators can't keep up. That's when autonomy is mission critical.
+						</p>
+						<a href="#mission-autonomy" class="btn btn--outline">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="careers-cta" id="careers">
+			<div class="container">
+				<div class="careers-cta__header">
+					<h2 class="careers-cta__title">Join us to build the future of AI</h2>
+					<a href="https://jobs.lever.co/shieldai" class="btn btn--outline btn--sm careers-cta__btn" target="_blank" rel="noopener">Open Roles</a>
+				</div>
+				<img src="https://shield.ai/wp-content/uploads/2025/03/hero-2-1.jpg" alt="" class="careers-cta__image" loading="lazy">
+			</div>
+		</section>
+
+		<section class="contact-cta">
+			<div class="container">
+				<div class="autonomy-calculator" id="autonomy-calculator">
+					<div class="autonomy-calculator__layout">
+						<form class="autonomy-value-form autonomy-value-form__inputs" id="autonomy-value-form" novalidate>
+							<h3 class="autonomy-value-form__heading">Fill this out first:</h3>
+
+							<fieldset class="autonomy-value-form__field autonomy-value-form__field--full">
+								<legend class="autonomy-value-form__label">Select your facility type</legend>
+								<div class="autonomy-value-form__toggle" role="radiogroup" aria-label="Facility type">
+									<label class="autonomy-value-form__toggle-btn is-active">
+										<input type="radio" name="facility_type" value="warehousing" checked>
+										Warehousing
+									</label>
+									<label class="autonomy-value-form__toggle-btn">
+										<input type="radio" name="facility_type" value="manufacturing">
+										Manufacturing
+									</label>
+								</div>
+							</fieldset>
+
+							<div class="autonomy-value-form__field autonomy-value-form__field--full">
+								<label class="autonomy-value-form__label" for="workflow">Workflow you need to automate</label>
+								<select id="workflow" name="workflow" class="autonomy-value-form__select" data-calc-input>
+									<option value="">Please select</option>
+									<optgroup label="Warehousing" data-facility="warehousing">
+										<option value="picking-putaway" selected>Picking / Putaway</option>
+										<option value="packaging">Packaging</option>
+										<option value="cross-docking">Cross Docking / Sortation</option>
+										<option value="in-between">In-Between</option>
+										<option value="other">Other</option>
+										<option value="multiple">Multiple</option>
+									</optgroup>
+									<optgroup label="Manufacturing" data-facility="manufacturing" hidden>
+										<option value="kanban">Kanban / Milk Run</option>
+										<option value="wip">Work in Progress</option>
+										<option value="finished-goods">Finished Goods / End of Line</option>
+										<option value="in-between-mfg">In-Between</option>
+										<option value="other-mfg">Other</option>
+										<option value="multiple-mfg">Multiple</option>
+									</optgroup>
+								</select>
+							</div>
+
+							<div class="autonomy-value-form__field autonomy-value-form__field--full">
+								<label class="autonomy-value-form__label" for="facility_size">
+									Facility size (sqft.) <span class="autonomy-value-form__required" aria-hidden="true">*</span>
+								</label>
+								<select id="facility_size" name="facility_size" class="autonomy-value-form__select" required data-calc-input>
+									<option value="">Please select</option>
+									<option value="250000">&lt;250k</option>
+									<option value="375000" selected>250k–500k</option>
+									<option value="625000">500k–750k</option>
+									<option value="875000">750k–1M</option>
+									<option value="1250000">&gt;1M</option>
+								</select>
+							</div>
+
+							<div class="autonomy-value-form__grid">
+								<div class="autonomy-value-form__field">
+									<label class="autonomy-value-form__label" for="num_shifts"># of shifts</label>
+									<select id="num_shifts" name="num_shifts" class="autonomy-value-form__select" data-calc-input>
+										<option value="">Please select</option>
+										<option value="1">1</option>
+										<option value="2" selected>2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+								<div class="autonomy-value-form__field">
+									<label class="autonomy-value-form__label" for="hours_per_shift"># of hours per shift</label>
+									<select id="hours_per_shift" name="hours_per_shift" class="autonomy-value-form__select" data-calc-input>
+										<option value="">Please select</option>
+										<option value="8" selected>8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+									</select>
+								</div>
+								<div class="autonomy-value-form__field">
+									<label class="autonomy-value-form__label" for="operating_days">Operating days per week</label>
+									<select id="operating_days" name="operating_days" class="autonomy-value-form__select" data-calc-input>
+										<option value="">Please select</option>
+										<option value="5" selected>5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+									</select>
+								</div>
+								<div class="autonomy-value-form__field">
+									<label class="autonomy-value-form__label" for="operating_teams">Operating teams</label>
+									<select id="operating_teams" name="operating_teams" class="autonomy-value-form__select" data-calc-input>
+										<option value="">Please select</option>
+										<option value="1">1</option>
+										<option value="2" selected>2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="autonomy-value-form__field autonomy-value-form__field--full">
+								<label class="autonomy-value-form__label" for="workers_per_shift"># of workers to replace per shift</label>
+								<div class="autonomy-value-form__slider-wrap">
+									<input type="range" id="workers_per_shift" name="workers_per_shift" class="autonomy-value-form__slider" min="1" max="50" value="10" data-calc-input aria-valuemin="1" aria-valuemax="50" aria-valuenow="10">
+									<output class="autonomy-value-form__slider-value" for="workers_per_shift">10</output>
+								</div>
+							</div>
+
+							<div class="autonomy-value-form__field autonomy-value-form__field--full">
+								<label class="autonomy-value-form__label" for="hourly_wage">Hourly wage</label>
+								<div class="autonomy-value-form__currency">
+									<span class="autonomy-value-form__currency-symbol" aria-hidden="true">$</span>
+									<input type="number" id="hourly_wage" name="hourly_wage" class="autonomy-value-form__input" min="0" step="0.01" value="20" data-calc-input>
+								</div>
+							</div>
+						</form>
+
+						<aside class="autonomy-value-form__results" aria-live="polite" aria-atomic="true">
+							<p class="autonomy-value-form__results-kicker">Your value of automation</p>
+							<h3 class="autonomy-value-form__results-title">What's your ROR?</h3>
+							<dl class="autonomy-value-form__metrics">
+								<div class="autonomy-value-form__metric">
+									<dt>
+										Your Blended Wage
+										<button type="button" class="autonomy-value-form__info" aria-label="Blended wage includes benefits and overhead" title="Fully loaded hourly rate including benefits, taxes, and overhead (35% burden).">i</button>
+									</dt>
+									<dd data-result="blended-wage">$27/hr</dd>
+								</div>
+								<div class="autonomy-value-form__metric">
+									<dt>
+										Your 3-Year Cost of Manual Labor
+										<button type="button" class="autonomy-value-form__info" aria-label="Three year manual labor cost" title="Total labor cost over 3 years based on your inputs.">i</button>
+									</dt>
+									<dd data-result="manual-cost">$6,739,200</dd>
+								</div>
+								<div class="autonomy-value-form__metric autonomy-value-form__metric--accent">
+									<dt>Shield AI Autonomy Cost</dt>
+									<dd data-result="robot-cost">$10/hr</dd>
+								</div>
+								<div class="autonomy-value-form__metric autonomy-value-form__metric--accent">
+									<dt>3-Year Cost Savings with Shield AI</dt>
+									<dd data-result="savings">$4,243,200</dd>
+								</div>
+							</dl>
+						</aside>
+					</div>
+				</div>
+
+				<div class="contact-cta__inner">
+					<h3 class="contact-cta__title">Unlock the value of autonomy today.</h3>
+					<button class="btn btn--dark btn--lg" data-open-contact="options">Contact Sales</button>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="colophon" class="site-footer">
+		<div class="footer-top">
+			<div class="footer-mission">
+				<a href="/" class="footer-brand">
+					<img src="https://shield.ai/wp-content/uploads/2025/03/logo-primary.svg" alt="Shield AI" width="137" height="26">
+				</a>
+				<p class="footer-quote">Our mission is to protect service members and civilians with intelligent systems.</p>
+				<div class="footer-actions">
+					<button class="btn btn--dark btn--sm" data-open-contact="general">Contact Us</button>
+					<a href="https://jobs.lever.co/shieldai" class="btn btn--dark btn--sm" target="_blank" rel="noopener">Open Roles</a>
+				</div>
+				<p class="copyright copyright--mobile">&copy; 2026 Shield AI. All rights reserved.</p>
+			</div>
+			<div class="footer-nav-grid">
+				<div class="footer-nav-col">
+					<ul class="footer-nav-list">
+						<li><a href="#hivemind">Hivemind</a></li>
+						<li><a href="#x-bat">X-BAT</a></li>
+						<li><a href="#v-bat">V-BAT</a></li>
+						<li><a href="#vision">Vision Systems</a></li>
+					</ul>
+				</div>
+				<div class="footer-nav-col">
+					<p class="footer-nav-title">Company</p>
+					<ul class="footer-nav-list footer-nav-list--muted">
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#newsroom">Newsroom</a></li>
+						<li><a href="#careers">Careers</a></li>
+						<li><a href="#mission-autonomy">Mission Autonomy</a></li>
+					</ul>
+				</div>
+				<div class="footer-nav-col">
+					<p class="footer-nav-title">Legal</p>
+					<ul class="footer-nav-list footer-nav-list--muted">
+						<li><a href="#security">Security</a></li>
+						<li><a href="#privacy">Privacy</a></li>
+						<li><a href="#suppliers">Suppliers</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-logo-large">
+			<img src="https://shield.ai/wp-content/themes/shield-ai/assets/images/footer-big-logo-2.svg" alt="Shield AI®" loading="lazy">
+		</div>
+	</footer>
+
+</div>
+
+<div id="contact-modal" class="contact-modal" aria-hidden="true" role="dialog" aria-labelledby="contact-modal-title">
+	<div class="contact-modal__overlay" data-close-modal></div>
+	<div class="contact-modal__container contact-modal__container--wide">
+		<button class="contact-modal__close" data-close-modal aria-label="Close">&times;</button>
+		<div class="contact-panel contact-panel--options active" data-panel="options">
+			<h2 id="contact-modal-title" class="contact-panel__title">Explore the ways Shield AI can enhance your operations</h2>
+			<ul class="contact-options contact-options--grid">
+				<li><button class="contact-option" data-open-form="general"><span class="contact-option__tag">[GENERAL INQUIRIES]</span><span class="contact-option__title">Reach Out to Our Team</span></button></li>
+			</ul>
+		</div>
+		<div class="contact-panel contact-panel--form" data-panel="general">
+			<button class="contact-panel__back" data-back-to-options>Back to options</button>
+			<h2 class="contact-panel__title">Reach Out to Our Team</h2>
+			<p class="contact-panel__note">"*" indicates required fields</p>
+			<form class="contact-form" data-form-type="general">
+				<div class="form-group">
+					<label for="general-name">Your name*</label>
+					<input type="text" id="general-name" name="name" required placeholder="Introduce yourself">
+				</div>
+				<div class="form-group">
+					<label for="general-email">Work e-mail*</label>
+					<input type="email" id="general-email" name="email" required placeholder="E-mail">
+				</div>
+				<div class="form-group">
+					<label for="general-message">How can we help?</label>
+					<textarea id="general-message" name="message" rows="4"></textarea>
+				</div>
+				<div class="form-message" aria-live="polite"></div>
+				<button type="submit" class="btn btn--primary btn--full">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

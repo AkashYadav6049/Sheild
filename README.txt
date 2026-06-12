@@ -52,3 +52,14 @@ C:\xampp\xampp\htdocs\wordpress\wp-content\themes\shield-ai\
 ## Open in Cursor
 
 File → Open Folder → D:\wordpress\theme\shield-ai
+
+## Deploy on Netlify (static site)
+
+This repo includes a static version for Netlify in the `site/` folder.
+
+1. Connect GitHub repo: https://github.com/AkashYadav6049/Sheild
+2. Netlify reads `netlify.toml` automatically (publish directory: `site`)
+3. Deploy — live at https://mysheild.netlify.app
+
+Note: Full WordPress (admin, PHP pages) still requires XAMPP or WordPress hosting.
+The Netlify version is the static homepage with ROI calculator.
